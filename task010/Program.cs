@@ -6,10 +6,23 @@
 
 // Console.WriteLine(number[1]);
 
-//Второе решение:
+// Основное решение:
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int num = number / 10;
 int result = num % 10;
-Console.WriteLine(result);
+Console.WriteLine("Вторая цифра числа " + number + " - это " + result);
+
+// Дополнительно:
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// string numberText = Convert.ToString(number);
+// if (numberText.Length == 3)
+// {
+//     Console.WriteLine("Вторая цифра числа " + number + " - это " + numberText[1]);
+// }
+// else
+// {
+//     Console.WriteLine("Введенное число не является трехзначным");
+// }
 
